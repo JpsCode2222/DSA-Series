@@ -15,10 +15,23 @@ using namespace std;
         return age;
     }
 
+    // Calculate min of 2 numbs
+    int calculateMin(int a,int b){
+        if(a<b){
+            cout<<a<<" is min";
+            return a;
+        }
+        else{
+            cout<<b<<" is min";
+            return b;
+        }
+    }
+
 int main(){
 
     // printHello();
-    printAge(20);
+    // printAge(20);
+    calculateMin(10,30);
 
     return 0;
 }
